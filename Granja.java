@@ -13,6 +13,15 @@
 public class Granja {
    
     
-    public void alimentar() {
+    public void alimentar(Animal animal) {
+        animal.comer();
+    }
+    
+    public void vacunar(AnimalVacunable animal) {
+        animal.vacunar();
+    }
+    
+    public void hacerEmitirSonidoCaracteristico(Animal animal) {
+        animal.emitirSonidoCaracteristico();
     }
 }
